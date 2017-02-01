@@ -1,0 +1,144 @@
+body {
+	background-color: #B7D1C4;
+}
+
+h2 {
+	color: #ACD1B2;
+	font-family: Verdana;
+	font-weight: bold;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+img {
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 10px 10px;
+	box-shadow: rgba(0, 0, 0, 0.2) 10px 10px;
+	height: 170px;
+	width: 170px;
+}
+
+#navbar {
+	left: 50%;
+	margin-left: -254px;
+	margin-top: -10px;
+	position: fixed;
+}
+
+#header {
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	background-color: #3C4543;
+	border-top-right-radius: 15px;
+	position: relative;
+	top: -10px;
+    border-top-left-radius: 15px;
+}
+
+ul {
+	list-style-type: none;
+	margin: -10px;
+	position: fixed;
+}
+
+li {
+	background-color: #CC0323;
+	border-radius: 5px 5px;
+	border: 2px solid #000000;
+	color: #FFFFFF;
+	display: inline;
+	font-family: Futura, Tahoma, sans-serif;
+	padding: 5px;
+}
+
+#left {
+	float: left;
+	width: 45%;
+}
+
+p {
+	font-family: Tahoma;
+	font-size: 1em;
+}
+
+#right {
+	float: right;
+	width: 45%;
+}
+
+table {
+	background-color: #ACD1B2;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: 1px solid #000000;
+	float: right;
+	margin-right: 10px;
+}
+
+td {
+	height: 75px;
+	width: 75px;
+}
+
+td img {
+	-webkit-box-shadow: none;
+	height: 75px;
+	width: 75px;
+    box-shadow: none;
+}
+
+th {
+	color: #3C4543;
+	font-family: Verdana;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+#bottom_left {
+	border-bottom-left-radius: 15px;
+}
+
+#bottom_right {
+	border-bottom-right-radius: 15px;
+}
+
+#footer {
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	background-color: #3C4543;
+	border-bottom-right-radius: 15px;
+	bottom: -20px;
+	clear: both;
+	height: 75px;
+	position: relative;
+    border-bottom-left-radius: 15px;
+}
+
+#button {
+	-webkit-border-radius: 5px;
+	background-color: #CC0323;
+	border: 2px solid #000000;
+	bottom: -20px;
+	float: left;
+	height: 30px;
+	left: 229px;
+	position: relative;
+	width: 150px;
+    border-radius: 5px;
+}
+
+#button p {
+	bottom: 10px;
+	color: #ACD1B2;
+	font-size: 0.8em;
+	position: relative;
+	text-align: center;
+}
+
+.bold {
+	color: #FFFFFF;
+	font-family: Tahoma;
+	font-size: 1.2em;
+	font-variant: small-caps;
+	font-weight: bold;
+}
